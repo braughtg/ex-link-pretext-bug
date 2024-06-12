@@ -3,6 +3,45 @@
 <section xml:id="sec-section-name" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Section Title</title>
 
-  <p> Text of section. </p>
+  <p> 
+    This section has an exercise that we then attempt to reference.  However, the link generated for the reference produces a 404 error. 
+  </p>
 
+  <exercise 
+      xml:id="ex-foss-community-principles"
+      label="ex-foss-community-principles">
+      <title>FOSS Community Principles</title>
+      <statement>
+        <p>
+          By building on each other's work the community can solve problems that no one could solve alone.
+        </p>
+        <p /> 
+        </statement>
+      <areas>
+        <tabular top="minor" bottom="minor" left="minor" right="minor">
+          <row>
+            <cell><area correct="no">shared values</area></cell>
+            <cell><area correct="yes">collaboration</area></cell>
+            <cell><area correct="no">transparency</area></cell>
+          </row>
+          <row>
+            <cell><area correct="no">inclusivity</area></cell>
+            <cell><area correct="no">meritocracy</area></cell>
+            <cell><area correct="no">release early and often</area></cell>
+          </row>
+        </tabular> 
+        <p /> 
+      </areas>
+      <feedback>
+        <p>
+          Review
+          <url href="https://opensource.com/open-source-way" visual="opensource.com/open-source-way">The Open Source Way</url>
+        </p>
+      </feedback>
+    </exercise>
+
+    <p>
+      Now we try to refer to 
+      <xref ref="ex-foss-community-principles" />.  But clicking this link generates a 404 error.
+    </p>
 </section>
